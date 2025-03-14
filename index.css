@@ -318,7 +318,7 @@ span{
 }
 
 /*media query-building for mobile and tablet version*/
- @media  screen and (max-width: 675px){
+ @media  screen and (min-width: 300px) and (max-width: 675px){
 
     nav{
         display: none;
